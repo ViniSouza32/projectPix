@@ -1,0 +1,124 @@
+  body, h1, main {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  header {
+    background: linear-gradient(to bottom, green, darkgreen);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  main {
+    text-align: center;
+    margin: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container-all {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 12px 24px;
+    margin: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #0055a5;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .no-highlight {
+    user-select: none; 
+    -moz-user-select: none; 
+    -webkit-text-select: none; 
+    -webkit-user-select: none; 
+  }
+
+  tr.highlighted {
+    border: transparent;
+    background-image: linear-gradient(to right, lightgreen,green);
+  }
+
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 315px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+  }
+
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+
+  .styled-table tbody tr:last-of-type {
+    border-bottom: 1px solid #009879;
+  }
+
+  .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="../img/images.ico">
+
+    <title>Transaction</title>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <div class="title">
+          <h1></h1>
+        </div>
+        <form id="transactionForm">
+            <label for="id">User ID:</label>
+            <input type="number" id="id" name="id" placeholder="User id ex.: 1" required>
+      
+            <label for="transactionType">Transaction Type</label>
+            <select id="transactionType" name="transactionType">
+              <option value="Recive">Recive</option>
+              <option value="Send">Send</option>
+            </select>
+
+            <label for="qnt">Quantity R$:</label>
+            <input type="text" id="qnt" name="qnt" placeholder="100.00" required>
+      
+            <button type="submit" class="button green">Make this Transaction</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="button-container container">
+      <a href="../screenStart/index.html" class="button">Back to main</a>
+      <a href="../screenMyTransactions/index.html" class="button">See my Transactions</a>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
+
