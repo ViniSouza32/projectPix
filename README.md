@@ -1,1 +1,2 @@
-# projectPix
+# A project done with study porpouse
+
